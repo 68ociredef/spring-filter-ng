@@ -71,7 +71,7 @@ interface Employee {
 ```
 ## Utils
 
-It is possbile to use utils method from <strong>SpringFilterUtils </strong>
+It is possbile to use utils method from <strong>SpringFilterUtils </strong>.
 
 <table>
   <thead>
