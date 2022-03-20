@@ -103,7 +103,7 @@ It is possible to use utils methods from <strong>SpringFilterUtils </strong>.
      <td> Conditional append or condition </td>
     </tr>
     <tr>
-     <td> addOR(filter, parameter) </td>
+     <td> addNOT(filter, parameter) </td>
      <td> Conditional append not condition </td>
     </tr>
   </tbody>
