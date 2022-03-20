@@ -12,7 +12,7 @@ npm install spring-filter-ng
 
 ## Usage
 
-```
+```ts
 import {SpringFilter} from 'spring-filter-ng';
 ```
 
