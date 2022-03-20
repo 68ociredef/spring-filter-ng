@@ -20,12 +20,17 @@ import {SpringFilter, SpringFilterUtils } from 'spring-filter-ng';
 ...
 
 public searchByFilter() {
-  const filter = new SpringFilter().build(); //initialize filter
+
+  //initialize filter
+  const filterBuild = new SpringFilter().build(); 
   
-  filter.equals("email","example@mail.it").value;
+  //Build query
+  const filter = filterBuild.equals("email","example@mail.it").value;
   
+  //Set parametrs for angular http.
   const options = SpringFilterUtils.setOptions(value);
   
+  //Fetch datas.
   this.fetchApiService.getClienteByFilter(options)......
   
 
