@@ -49,6 +49,8 @@ lastName	string
 birthDate	string 
 maritalStatus	string
 salary	integer
+manager Manager
+staff   Staff[]
 
 If you want to know the employees who receive a salary greater than 3000:
 
