@@ -81,7 +81,7 @@ interface Employee {
   </thead>
   <tbody>
     <tr>
-     <td> SpringFilterUtils.likeAll(parameter) </td>
+     <td> <span style="color:green">SpringFilterUtils.likeAll(parameter)<span> </td>
      <td> Search for values that have the parameter in input in any position </td>
     </tr>
   </tbody>
