@@ -27,7 +27,7 @@ public searchByFilter() {
   //Build query
   const filter = filterBuild.equals("email","example@mail.it").value;
   
-  //Set parametrs for angular http.
+  //Set paramters for angular http.
   const options = SpringFilterUtils.setOptions(value);
   
   //Fetch datas.
