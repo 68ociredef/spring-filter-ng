@@ -93,6 +93,18 @@ It is possbile to use utils method from <strong>SpringFilterUtils </strong>
      <td> likeRight(parameter) </td>
      <td> Search any values that end with the parameter in input.</td>
     </tr>
+    <tr>
+     <td> addAND(filter, parameter) </td>
+     <td> Conditional append and condition </td>
+    </tr>
+    <tr>
+     <td> addOR(filter, parameter) </td>
+     <td> Conditional append or condition </td>
+    </tr>
+    <tr>
+     <td> addOR(filter, parameter) </td>
+     <td> Conditional append not condition </td>
+    </tr>
   </tbody>
   
 </table>
