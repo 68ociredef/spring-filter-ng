@@ -65,7 +65,8 @@ interface Employee {
    at leat two stuff members or are not manager:
 
  const filter = filterBuild.append("maritalStatus").in("divorced", "separated")
-    .and(springFilter.instance().greaterThan(springFilter.instance().size("staff"), 2).or("manager").isNotNull()).value;
+    .and(springFilter.instance().greaterThan(springFilter.instance().size("staff"), 2)
+    .or("manager").isNotNull()).value;
     
 
 ```
