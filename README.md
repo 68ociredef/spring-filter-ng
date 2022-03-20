@@ -51,7 +51,7 @@ interface Employee {
   maritalStatus: string;
   salary: number;
   manager: Employee
-  staff: Staff[]
+  staff: Employee[]
 }
 
 1. If you want to know the employees who receive a salary greater than 3000:
@@ -59,7 +59,7 @@ interface Employee {
  const filter = filterBuild.greaterThen("employee.salary",3000).value;
  
 2. If you want to know the employees who have marital status divorced or separated and have 
-   at leat two stuffs or are not manager:
+   at leat two stuff members or are not manager:
 
  const filter = filterBuild.append("maritalStatus").in("divorced", "separated")
     .and(base.instance().greaterThan(base.instance().size("staff"),2).or("manager").isNotNull()).value
