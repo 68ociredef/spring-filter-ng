@@ -12,5 +12,7 @@ npm install spring-filter-ng
 
 ## Usage
 
-
+```
+import {SpringFilter} from 'spring-filter-ng';
+```
 
