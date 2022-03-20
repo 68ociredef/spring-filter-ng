@@ -58,7 +58,8 @@ interface Employee {
 
  const filter = filterBuild.greaterThen("employee.salary",3000).value;
  
-2. If you want to know the employees who have marital status divorced or separated and or have a at leat two stuffs or are not manager:
+2. If you want to know the employees who have marital status divorced or separated and or have 
+   at leat two stuffs or are not manager:
 
  const filter = filterBuild.append("maritalStatus").in("divorced", "separated")
     .and(base.instance().greaterThan(base.instance().size("staff"),2).or("manager").isNotNull()).value
