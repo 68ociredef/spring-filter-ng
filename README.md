@@ -31,7 +31,7 @@ public searchByFilter() {
   const options = SpringFilterUtils.setOptions(value);
   
   //Fetch datas.
-  this.fetchApiService.getClienteByFilter(options)......
+  this.fetchApiService.getStuffsByFilter(options)......
   
 
 }
