@@ -71,5 +71,23 @@ interface Employee {
 ```
 ## Utils
 
+```ts
+<table>
+  <thead>
+    <tr>
+     <th> <strong> Name </strong> </th>
+     <th> <strong> Description </strong> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td> ciao </td>
+     <td> bello </td>
+    </tr>
+  </tbody>
+  
+</table>
+```
+
 
 
