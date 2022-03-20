@@ -63,6 +63,7 @@ interface Employee {
 
  const filter = filterBuild.append("maritalStatus").in("divorced", "separated")
     .and(base.instance().greaterThan(base.instance().size("staff"),2).or("manager").isNotNull()).value;
+    
 
 ```
 
