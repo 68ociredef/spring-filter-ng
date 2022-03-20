@@ -13,14 +13,20 @@ npm install spring-filter-ng
 ## Usage
 
 ```ts
-import {SpringFilter} from 'spring-filter-ng';
+import {SpringFilter, SpringFilterUtils } from 'spring-filter-ng';
 ```
 
 ```ts
 ...
 
 public searchByFilter() {
-  const filter = new SpringFilter().build(); //initializa filter
+  const filter = new SpringFilter().build(); //initialize filter
+  
+  filter.equals("email","example@mail.it").value;
+  
+  const options = SpringFilterUtils.setOptions(value);
+  
+  this.fetchApiService.getClienteByFilter(options)......
   
 
 }
