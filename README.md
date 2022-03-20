@@ -71,6 +71,7 @@ interface Employee {
 ```
 ## Utils
 
+It is possbile to use utils method from <strong>SpringFilterUtils </strong>
 
 <table>
   <thead>
@@ -81,7 +82,7 @@ interface Employee {
   </thead>
   <tbody>
     <tr>
-     <td> <strong>SpringFilterUtils</strong>.likeAll(parameter) </td>
+     <td> likeAll(parameter) </td>
      <td> Search for values that have the parameter in input in any position </td>
     </tr>
   </tbody>
