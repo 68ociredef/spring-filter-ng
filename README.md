@@ -43,14 +43,16 @@ public searchByFilter() {
 
 Considering an employee
 
-id	integer
+id	      integer
 firstName	string
 lastName	string
-birthDate	string($date-time)
+birthDate	string 
 maritalStatus	string
 salary	integer
 
+If you want to know the employees who receive a salary greater than 3000:
 
+ const filter = filterBuild.greaterThen("employee.salary",3000).value;
 
 ```
 
