@@ -43,14 +43,16 @@ public searchByFilter() {
 
 Considering an employee
 
-id	      integer
-firstName	string
-lastName	string
-birthDate	string 
-maritalStatus	string
-salary	integer
-manager Manager
-staff   Staff[]
+interface Employee {
+  id: number;
+  firstName: string;
+  lastName: string;
+  birthDate: string;
+  maritalStatus: string;
+  salary: number;
+  manager: Employee
+  staff: Staff[]
+}
 
 If you want to know the employees who receive a salary greater than 3000:
 
