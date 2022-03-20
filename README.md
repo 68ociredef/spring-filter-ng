@@ -71,7 +71,7 @@ interface Employee {
 ```
 ## Utils
 
-```ts
+```
 <table>
   <thead>
     <tr>
