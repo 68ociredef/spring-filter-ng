@@ -54,7 +54,7 @@ interface Employee {
   staff: Staff[]
 }
 
-- If you want to know the employees who receive a salary greater than 3000:
+1. If you want to know the employees who receive a salary greater than 3000:
 
  const filter = filterBuild.greaterThen("employee.salary",3000).value;
 
