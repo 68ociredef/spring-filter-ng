@@ -36,3 +36,12 @@ public searchByFilter() {
 
 }
 ```
+
+## Example
+
+```ts
+
+
+
+```
+
