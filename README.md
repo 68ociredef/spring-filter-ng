@@ -16,3 +16,12 @@ npm install spring-filter-ng
 import {SpringFilter} from 'spring-filter-ng';
 ```
 
+```ts
+...
+
+public searchByFilter() {
+  const filter = new SpringFilter().build(); //initializa filter
+  
+
+}
+```
