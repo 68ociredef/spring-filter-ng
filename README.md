@@ -85,6 +85,14 @@ It is possbile to use utils method from <strong>SpringFilterUtils </strong>
      <td> likeAll(parameter) </td>
      <td> Search for values that have the parameter in input in any position </td>
     </tr>
+    <tr>
+     <td> likeLeft(parameter) </td>
+     <td> Search any values that start with the parameter in input.</td>
+    </tr>
+    <tr>
+     <td> likeRight(parameter) </td>
+     <td> Search any values that end with the parameter in input.</td>
+    </tr>
   </tbody>
   
 </table>
