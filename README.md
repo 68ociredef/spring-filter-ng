@@ -41,6 +41,15 @@ public searchByFilter() {
 
 ```ts
 
+Considering an employee
+
+id	integer
+firstName	string
+lastName	string
+birthDate	string($date-time)
+maritalStatus	string
+salary	integer
+
 
 
 ```
