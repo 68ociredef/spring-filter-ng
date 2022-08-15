@@ -113,5 +113,5 @@ It is possible to use utils methods from <strong>SpringFilterUtils </strong>.
 
 
 
-**Love spring-filter-ng? Give to repo a star :star: :arrow_up:.**
+Love **spring-filter-ng** ? Give to repo a **star** :star:.
 
