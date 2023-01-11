@@ -2,7 +2,7 @@
 
 A filter builder to manage [Spring Filter](https://github.com/turkraft/spring-filter) library for Angular application.
 
-<a href="https://www.npmjs.com/~68ociredef" target="_blank"><img src="https://img.shields.io/npm/dt/spring-filter-ng" alt="NPM Downloads total"/></a>
+<a href="https://www.npmjs.com/~68ociredef" target="_blank"><img src="https://img.shields.io/npm/v/spring-filter-ng" alt="NPM Version" /></a>
 
 ## Getting started
 
