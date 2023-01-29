@@ -17,10 +17,10 @@ npm install spring-filter-ng
 
 ## Angular Support
 
- Angular       | FascinatiNG     | Status      |
- ------------- | --------------- | ----------- |
- 14 (ivy only) | 3.x             | Active      |
- 12 (ivy only) | 1.x+            | -           |
+ Angular   | FascinatiNG     | Status      |
+ ----------| --------------- | ----------- |
+ 14        | 3.x             | Active      |
+ 12/13     | 1.x+            | -           |
 
 ## Usage
 
