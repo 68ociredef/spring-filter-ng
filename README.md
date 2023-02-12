@@ -164,7 +164,7 @@ It is possible to use a date builder to manage date input.
 Format the date in local date time adding a day, in italian format.
 
 ```ts
-import {SfDateBuilder } from 'spring-filter-ng';
+import {SfDateBuilder} from 'spring-filter-ng';
 ```
 ```ts
 
